@@ -46,7 +46,7 @@ public class SrvVelocitats {
 
     public static void main(String[] args) throws IOException {
 
-        SrvVelocitats srvVel = new SrvVelocitats(5557, "224.0.2.1");
+        SrvVelocitats srvVel = new SrvVelocitats(5557, "224.0.0.1");
         srvVel.runServer();
         System.out.println("Parat!");
 

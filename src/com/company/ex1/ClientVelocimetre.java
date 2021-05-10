@@ -71,7 +71,7 @@ public class ClientVelocimetre {
     }
 
     public static void main(String[] args) {
-        ClientVelocimetre clientVelocimetre = new ClientVelocimetre("224.0.2.1", 5557);
+        ClientVelocimetre clientVelocimetre = new ClientVelocimetre("224.0.0.1", 5557);
         try {
             clientVelocimetre.runClient();
         } catch (IOException e) {
